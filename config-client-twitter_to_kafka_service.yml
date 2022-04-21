@@ -1,3 +1,6 @@
+server:
+  port: 8181
+
 logging:
   level:
     com.berkanterdogan.microservices.lab: ${LOGGING_LEVEL_COM_BERKANTERDOGAN_MICROSERVICES_LAB:debug}
