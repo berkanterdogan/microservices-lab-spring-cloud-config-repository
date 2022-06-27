@@ -3,8 +3,8 @@ server:
 
 logging:
   level:
-    com.berkanterdogan.microservices.lab: ${LOGGING_LEVEL_COM_BERKANTERDOGAN_MICROSERVICES_LAB:debug}
-    root: ${LOGGING_LEVEL_ROOT:debug}
+    com.berkanterdogan.microservices.lab: ${LOGGING_LEVEL_COM_BERKANTERDOGAN_MICROSERVICES_LAB:info}
+    root: ${LOGGING_LEVEL_ROOT:info}
 
 twitter-to-kafka-service:
   welcome-message: Welcome To TwitterToKafkaServiceApplication!

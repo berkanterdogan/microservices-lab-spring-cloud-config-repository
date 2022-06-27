@@ -1,6 +1,11 @@
 server:
   port: 8182
 
+logging:
+  level:
+    com.berkanterdogan.microservices.lab: ${LOGGING_LEVEL_COM_BERKANTERDOGAN_MICROSERVICES_LAB:info}
+    root: ${LOGGING_LEVEL_ROOT:info}
+
 retry-config:
   initial-interval-ms: 1000
   max-interval-ms: 10000
