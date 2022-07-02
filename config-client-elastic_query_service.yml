@@ -15,3 +15,9 @@ elastic-config:
   connection-timeout-ms: ${ELASTIC_CONNECTION_TIMEOUT_MS:5000}
   socket-timeout-ms: ${ELASTIC_SOCKET_TIMEOUT_MS:30000}
   use-repository: ${ELASTIC_USE_REPOSITORY:true}
+
+user-config:
+  username: test
+  password: {cipher}fb9d00a9caad384a4639cafba17f32d12bd34b8933b68cedd9b94aa0e76ecc03
+  roles:
+    - USER
