@@ -30,3 +30,4 @@ springdoc:
 
 security:
   paths-to-ignore:
+    - /api-docs
