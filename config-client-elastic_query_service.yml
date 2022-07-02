@@ -1,0 +1,17 @@
+server:
+  port: 8183
+  servlet:
+    context-path: /elastic-query-service
+
+elastic-query-service:
+  version: v1
+
+elastic-query-config:
+  text-field: text
+
+elastic-config:
+  index-name: ${ELASTIC_INDEX_NAME:twitter-index}
+  connection-url: ${ELASTIC_CONNECTION_URL:http://localhost:9200}
+  connection-timeout-ms: ${ELASTIC_CONNECTION_TIMEOUT_MS:5000}
+  socket-timeout-ms: ${ELASTIC_SOCKET_TIMEOUT_MS:30000}
+  use-repository: ${ELASTIC_USE_REPOSITORY:true}
